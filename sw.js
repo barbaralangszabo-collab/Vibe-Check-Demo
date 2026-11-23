@@ -1,6 +1,6 @@
 /* Vibe Check – service worker: az app gyorsan és gyenge wifi mellett is betölt.
    A Supabase-ből érkező adatokat és PDF-eket NEM tárolja (azok mindig frissek, és privátak). */
-const V = 'vibe-check-v69';
+const V = 'vibe-check-v85';
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png'];
 
 self.addEventListener('install', e => {
